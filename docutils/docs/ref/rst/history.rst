@@ -9,35 +9,19 @@
 :Date: $Date$
 :Copyright: This document has been placed in the public domain.
 
-reStructuredText_, the specification, is based on StructuredText_ and
-Setext_.  StructuredText was developed by Jim Fulton of `Zope
-Corporation`_ (formerly Digital Creations) and first released in 1996.
-It is now released as a part of the open-source "Z Object Publishing
-Environment" (ZOPE_).  Ian Feldman's and Tony Sanders' earlier Setext_
-specification was either an influence on StructuredText or, by their
-similarities, at least evidence of the correctness of this approach.
+* reStructuredText_ 's specification
+    * -- based on -- StructuredText_ + Setext_
 
-I discovered StructuredText_ in late 1999 while searching for a way to
-document the Python modules in one of my projects.  Version 1.1 of
-StructuredText was included in Daniel Larsson's pythondoc_.  Although
-I was not able to get pythondoc to work for me, I found StructuredText
-to be almost ideal for my needs.  I joined the Python Doc-SIG_
-(Documentation Special Interest Group) mailing list and found an
-ongoing discussion of the shortcomings of the StructuredText
-"standard".  This discussion has been going on since the inception of
-the mailing list in 1996, and possibly predates it.
+* StructuredText
+    * was developed -- by -- Jim Fulton
+    * releases
+        * | 2019, FIRST
+        * CURRENTLY, part of open-source "Z Object Publishing Environment" (ZOPE_)
+        * v1.1,
+            * included | Daniel Larsson's pythondoc_
+            * 's design == NO include extensionS
 
-I decided to modify the original module with my own extensions and
-some suggested by the Doc-SIG members.  I soon realized that the
-module was not written with extension in mind, so I embarked upon a
-general reworking, including adapting it to the "re" regular
-expression module (the original inspiration for the name of this
-project).  Soon after I completed the modifications, I discovered that
-StructuredText.py was up to version 1.23 in the ZOPE distribution.
-Implementing the new syntax extensions from version 1.23 proved to be
-an exercise in frustration, as the complexity of the module had become
-overwhelming.
-
+* TODO:
 In 2000, development on StructuredTextNG ("Next Generation") began at
 `Zope Corporation`_ (then Digital Creations).  It seems to have many
 improvements, but still suffers from many of the problems of classic
