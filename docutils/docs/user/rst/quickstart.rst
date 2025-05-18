@@ -9,36 +9,36 @@ A ReStructuredText Primer
 
 .. contents::
 
+* goal
+    * reStructuredText's introduction
 
-The text below contains links that look like "(quickref__)".  These
-are relative links that point to the `Quick reStructuredText`_ user
-reference.  If these links don't work, please refer to the `master
-quick reference`_ document.
+* "quickref__"
+    * == links
+    * if links do NOT work -> see `master quick reference`_ document
 
 __
 .. _Quick reStructuredText: quickref.html
 .. _master quick reference:
    https://docutils.sourceforge.io/docs/user/rst/quickref.html
 
-.. Note:: This document is an informal introduction to
-   reStructuredText.  The `What Next?`_ section below has links to
-   further resources, including a formal reference.
-
+* `What Next?`_
+    * == links -- to -- FURTHER resources
 
 Structure
 ---------
 
-From the outset, let me say that "Structured Text" is probably a bit
-of a misnomer.  It's more like "Relaxed Text" that uses certain
-consistent patterns.  These patterns are interpreted by a HTML
-converter to produce "Very Structured Text" that can be used by a web
-browser.
+* ReStructuredText
+    * != "Structured Text"
+    * == "Relaxed Text" / uses certain consistent patterns to be interpreted by a HTML converter
+        * Reason: 🧠produce "Very Structured Text" / used by a web browser🧠
 
-The most basic pattern recognised is a **paragraph** (quickref__).
-That's a chunk of text that is separated by blank lines (one is
-enough).  Paragraphs must have the same indentation -- that is, line
-up at their left edge.  Paragraphs that start indented will result in
-indented quote paragraphs. For example::
+- **paragraph**
+    - == MOST basic pattern
+    - == chunk of text /
+        - separated by blank lines (enough 1)
+        - MUST have the SAME indentation
+    - if they are indented -> indented quote paragraphs
+::
 
   This is a paragraph.  It's quite
   short.
@@ -68,12 +68,13 @@ Text styles
 
 __ quickref.html#inline-markup
 
-Inside paragraphs and other bodies of text, you may additionally mark
-text for *italics* with "``*italics*``" or **bold** with
-"``**bold**``".  This is called "inline markup".
+- "inline markup"
+    - *italics* -- via -- "``*italics*``"
+    - **bold** -- via -- "``**bold**``"  This is called
 
-If you want something to appear as a fixed-space literal, use
-"````double back-quotes````".  Note that no further fiddling is done
+* TODO: If you want something to appear as a fixed-space literal, use
+"````double back-quotes````"
+Note that no further fiddling is done
 inside the double back-quotes -- so asterisks "``*``" etc. are left
 alone.
 
@@ -265,16 +266,17 @@ Sections
 
 __ quickref.html#section-structure
 
-To break longer text up into sections, you use **section headers**.
-These are a single line of text (one or more words) with adornment: an
-underline alone, or an underline and an overline together, in dashes
-"``-----``", equals "``======``", tildes "``~~~~~~``" or any of the
-non-alphanumeric characters ``= - ` : ' " ~ ^ _ * + # < >`` that you
-feel comfortable with.  An underline-only adornment is distinct from
-an overline-and-underline adornment using the same character.  The
-underline/overline must be at least as long as the title text.  Be
-consistent, since all sections marked with the same adornment style
-are deemed to be at the same level::
+- **section headers**
+    - 1! line of text + adornment
+        - adornment == 👀underline or underline + overline👀/
+            -  ALLOWED
+                - "``-----``"
+                - "``======``"
+                - "``~~~~~~``" or
+                - any NON-alphanumeric characters ``= - ` : ' " ~ ^ _ * + # < >``
+            - adornment's length >= title text's length
+            - ALL sections MUST be \| same level
+::
 
   Chapter 1 Title
   ===============
