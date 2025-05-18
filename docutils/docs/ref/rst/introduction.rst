@@ -9,27 +9,29 @@
 :Date: $Date$
 :Copyright: This document has been placed in the public domain.
 
-reStructuredText_ is an easy-to-read, what-you-see-is-what-you-get
-plaintext markup syntax and parser system.  It is useful for inline
-program documentation (such as Python docstrings), for quickly
-creating simple web pages, and for standalone documents.
-reStructuredText_ is a proposed revision and reinterpretation of the
-StructuredText_ and Setext_ lightweight markup systems.
+* goal
+    * reStructuredText
+        * goals_
+        * -- provides -- project's history_
 
-reStructuredText is designed for extensibility for specific
-application domains.  Its parser is a component of Docutils_.
+* reStructuredText_
+    * == plaintext markup syntax & parser system /
+        * easy-to-read
+    * uses
+        * inline program documentation
+        * quickly creating simple web pages
+        * standalone documents
+    * == StructuredText_ + Setext_ lightweight markup systems
+    * 's goal
+        * extensibility | SPECIFIC application domains
+    * 's parser == Docutils_' component
+    * web page https://docutils.sourceforge.io/rst.html
 
-This document defines the goals_ of reStructuredText and provides a
-history_ of the project.  It is written using the reStructuredText
-markup, and therefore serves as an example of its use.  For a gentle
-introduction to using reStructuredText, please read `A
-ReStructuredText Primer`_.  The `Quick reStructuredText`_ user
-reference is also useful.  The `reStructuredText Markup
-Specification`_ is the definitive reference.  There is also an
-analysis of the `Problems With StructuredText`_.
-
-ReStructuredText's web page is
-https://docutils.sourceforge.io/rst.html.
+* links
+    * `A ReStructuredText Primer`_
+    * `Quick reStructuredText`_
+    * `reStructuredText Markup Specification`_
+    * `Problems With StructuredText`_
 
 .. _reStructuredText: https://docutils.sourceforge.io/rst.html
 .. _StructuredText: https://zopestructuredtext.readthedocs.org/
@@ -45,6 +47,7 @@ https://docutils.sourceforge.io/rst.html.
 Goals
 =====
 
+* TODO:
 The primary goal of reStructuredText_ is to define a markup syntax for
 use in Python docstrings and other documentation domains, that is
 readable and simple, yet powerful enough for non-trivial use.  The
